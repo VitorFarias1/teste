@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist Mês de Agosto</title>
+    <style>
+        * { 
+            margin: 0px; 
+            padding: 0px;
+        }
+        
+        header h1 {
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: white;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.575);
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0669e2;
+        }
+
+        main legend {
+            text-align: center;
+            text-indent: inherit;
+            font-weight: bold;
+            font-size: 1.5em;
+            padding: 3px;
+            border: solid rgba(0, 0, 0, 0.607);
+            background-color: white;
+            
+        }
+
+        main h2 {
+            text-align: center;
+            margin-bottom: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.637);
+
+        }
+
+        form fieldset {
+            display: block;
+            margin-left: 30px;
+            margin-right: 30px;
+            background-color: white;
+            margin-top: 10px;
+            padding-top: 5px;
+            padding-bottom: 15px;
+            border: solid black;
+            border-radius: 5px;
+        }
+
+        form input { 
+           margin: 5px;
+           padding: 5px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        label:hover {
+            text-decoration: underline;
+            color: #0669e2;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lista de pagamentos para o mês de agosto</h1>
+    </header>
+    <main>
+        <h2>**Por favor, marque a caixa ao lado do nome caso tenha efetuado a contribuição do mês:</h2>
+        <form action="registrado.html" method="post">
+            <fieldset>
+                <legend>Lista de participantes do vôlei masculino</legend>
+                <input type="checkbox" name="dsnome" id="idsnome"><label for="idsnome">Daniel Santana</label><br>
+                <input type="checkbox" name="djnome" id="idjnome"  ><label for="idjnome">Dourivan Junior</label><br>
+                <input type="checkbox" name="fknome" id="ifknome"><label for="ifknome">Felipe Koza</label><br>
+                <input type="checkbox" name="gcnome" id="igcnome"><label for="igcnome">Gabriel Cavalcanti</label><br>
+                <input type="checkbox" name="ghnome" id="ighnome"><label for="ighnome">Gustavo Henrique</label><br>
+                <input type="checkbox" name="jpvnome" id="ijpvnome"><label for="ijpvnome">João Pedro Vicari</label><br>
+                <input type="checkbox" name="jvnome" id="ijvnome" ><label for="ijvnome">João Victor</label><br>
+                <input type="checkbox" name="llnome" id="illnome"  ><label for="illnome">Lucas Lima</label><br>
+                <input type="checkbox" name="lynome" id="ilynome"  ><label for="ilynome">Lucas Yuuki</label><br>
+                <input type="checkbox" name="mpnome" id="impnome"  ><label for="impnome">Mário Pellegrini</label><br>
+                <input type="checkbox" name="mnnome" id="imnnome" ><label for="imnnome">Mateus Nonato</label><br>
+                <input type="checkbox" name="mbnome" id="imbnome" ><label for="imbnome">Matheus Berto</label><br>
+                <input type="checkbox" name="minome" id="iminome" ><label for="iminome">Matheus Ikeda</label><br>
+                <input type="checkbox" name="pbnome" id="ipbnome"  ><label for="ipbnome">Pedro Bonami</label><br>
+                <input type="checkbox" name="rmnome" id="irmnome"  ><label for="irmnome">Raí Mello</label><br>
+                <input type="checkbox" name="rpnome" id="irpnome"  ><label for="irpnome">Raphael do Prado</label><br>
+                <input type="checkbox" name="vlnome" id="ivlnome" ><label for="ivlnome">Victor Lucas</label><br>
+                <input type="checkbox" name="vrnome" id="ivrnome"  ><label for="ivrnome">Vitor Rodrigues</label><br>
+            </fieldset> <br>
+            <p><input type="submit" value="Enviar"></p>
+            <p><input type="reset" value="Limpar"></p>
+        </form>
+    </main>
+</body>
+</html>
